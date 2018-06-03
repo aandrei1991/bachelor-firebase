@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FireChat</string>
+    <string name="sign_out">Sign out</string>
+    <string name="native_lang_text_view">Native language</string>
+    <string name="requested_lang_text_view">Requested language</string>
+    <string name="location_text_view">Location</string>
+    <string name="error_native_lang">Please select a native language!</string>
+    <string name="error_location">Please select your current location / country!</string>
+    <string name="error_requested_lang">Please select a requested language!</string>
+    <string name="default_location">RO</string>
+    <string name="default_req_lang">en</string>
+    <string name="default_spoken_lang">en</string>
+    <string name="continue_btn_text">Continue</string>
+    <string name="hint_search_text">Search for languages</string>
+    <string name="descriptive_text_search_activity">Search</string>
+</resources>

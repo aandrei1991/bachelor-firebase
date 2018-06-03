@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <Spinner
+        android:id="@+id/locationSpinner"
+        android:layout_width="@dimen/profile_elements_width"
+        android:layout_height="@dimen/profile_elements_height"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:prompt="@string/default_location" />
+
+    <Spinner
+        android:id="@+id/requestedLanguageSpinner"
+        android:layout_width="@dimen/profile_elements_width"
+        android:layout_height="@dimen/profile_elements_height"
+        android:layout_below="@+id/requestedLangTextView"
+        android:layout_centerHorizontal="true"
+        android:prompt="@string/default_req_lang" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="@dimen/profile_elements_width"
+        android:layout_height="@dimen/profile_elements_height"
+        android:layout_centerInParent="true"
+        android:text="@string/location_text_view"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/requestedLangTextView"
+        android:layout_width="@dimen/profile_elements_width"
+        android:layout_height="@dimen/profile_elements_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:text="@string/requested_lang_text_view"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/nativeLangTextView"
+        android:layout_width="@dimen/profile_elements_width"
+        android:layout_height="@dimen/profile_elements_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="@string/native_lang_text_view"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Spinner
+        android:id="@+id/nativeLangSpinner"
+        android:layout_width="@dimen/profile_elements_width"
+        android:layout_height="@dimen/profile_elements_height"
+        android:layout_below="@+id/nativeLangTextView"
+        android:layout_centerHorizontal="true"
+        android:prompt="@string/default_spoken_lang" />
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="@dimen/profile_elements_width"
+        android:layout_height="@dimen/profile_elements_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp"
+        android:text="@string/continue_btn_text" />
+
+</RelativeLayout>
